@@ -1,0 +1,31 @@
+{
+  "name": "@guozhl/zero-command",
+  "version": "1.0.0",
+  "description": "zero-command",
+  "main": "index.js",
+  "bin": {
+    "zero": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "guozhl",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^6.1.0",
+    "download-git-repo": "^3.0.2",
+    "ora": "^5.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guozhl/zero-command.git"
+  },
+  "keywords": [
+    "command"
+  ],
+  "bugs": {
+    "url": "https://github.com/guozhl/zero-command/issues"
+  },
+  "homepage": "https://github.com/guozhl/zero-command#readme"
+}
